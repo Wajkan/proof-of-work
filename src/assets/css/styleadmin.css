@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/** RESET DONE **/
+body {
+  background: radial-gradient(
+    circle,
+    rgb(255, 196, 0) 0%,
+    rgb(32, 30, 30) 100%
+  );
+  background-size: cover;
+  min-height: 100vh;
+  font-family: 'Montserrat', 'Franklin Gothic Medium';
+}
+
+/** FORM STYLING FOR ADMIN PAGE **/
+
+/** Styling for the entire form **/
+#add-courses {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 15px;
+  background: linear-gradient(166deg, rgb(68, 68, 68) 0%, rgb(0, 0, 0) 100%);
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+/** Label styling **/
+#add-courses label {
+  color: white;
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1rem;
+}
+
+/** Input and select field styling **/
+#add-courses input[type='text'],
+#add-courses input[type='number'],
+#add-courses input[type='date'],
+#add-courses select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+/** Styling for the button **/
+#save-course {
+  width: 100%;
+  padding: 10px 15px;
+  background-color: #3cb923;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#save-course:hover {
+  background-color: #196f01;
+}
+
+/** Adding some spacing between form fields **/
+#add-courses input,
+#add-courses select,
+#add-courses button {
+  margin-bottom: 20px;
+}
+
+/** RETURN BUTTON **/
+.back-btn {
+  text-align: center;
+  color: white;
+  font-size: 1rem;
+  padding: 5px;
+  border-bottom-right-radius: 5px;
+  background: rgb(1, 170, 37);
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+a.back-btn {
+  text-decoration: none;
+}
+
+a.back-btn:hover {
+  background: rgb(4, 194, 45);
+}
+
+
+
+/** CONFIRMED BOOKINGS CONTAINER **/
+
+.confirmed-container {
+  color: white;
+  margin: 20px auto;
+  height: 600px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background: linear-gradient(166deg, rgb(68, 68, 68) 0%, rgb(0, 0, 0) 100%);
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-radius: 10px;
+}
+
+#confirmedBookings li {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+#createdAccounts li {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+}
+
+
+/** SCROLL STYLING **/
+.confirmed-container {
+  scrollbar-width: thin;
+  scrollbar-color: #888 #f1f1f1;
+}
+
+
+
+/** WRAPPING **/
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+.add-courses-form {
+  flex: 1;
+  min-width: 300px;
+}
+
+.confirmed-container {
+  min-width: 300px;
+  flex: 1;
+  height: 670px;
+  margin: 20px 0;
+}
+
+

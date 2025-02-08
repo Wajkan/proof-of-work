@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }  
+
+/** RESET DONE **/
+
+
+/** BODY STYLING **/
+body { 
+    background: radial-gradient(circle, rgb(255, 196, 0) 0%, rgb(32, 30, 30) 100%);
+    background-size: cover;
+    min-height: 100vh;
+    font-family: 'Montserrat', 'Franklin Gothic Medium';
+}
+
+
+
+
+/** CONTAINER STYLING **/
+
+#courses-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    flex-wrap: wrap;
+
+}
+
+.course-container {
+    font-size: 1rem;
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 10px;
+    color:white;
+    max-width: 500px;
+    background: linear-gradient(166deg, rgb(47, 220, 220) 0%, rgb(0, 0, 0) 100%);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.course-container p {
+    margin: 10px;
+}
+
+.course-container h2 {
+    text-decoration: underline;
+    font-size:1.2rem;
+    font-weight: lighter;
+    margin: 10px;
+}
+
+
+
+.image-styling {
+    border-radius: 10px;
+    width: 300px;
+}
+
+
+
+/** BOOK COURSE BUTTON **/
+ 
+
+.save-btn {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    padding: 5px;
+    background-color: #3cb923;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;  /* This will center the text within the button */
+  }
+
+  .save-btn:hover {
+    background-color: #196f01;
+  }
+  
+
+    /** RETURN BUTTON **/
+.back-btn {
+    text-align: center;
+    color:white;
+    font-size: 1rem;
+    padding:5px;
+    border-bottom-right-radius: 5px;
+    background: rgb(1, 170, 37);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+}
+
+a.back-btn {
+    text-decoration: none;
+}
+
+a.back-btn:hover {
+    background: rgb(4, 194, 45);
+}

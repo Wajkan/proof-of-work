@@ -1,0 +1,115 @@
+{
+  "courses": [
+    {
+      "id": "9c0d",
+      "courseTitle": "HTML / CSS",
+      "courseNumber": "8523",
+      "educationType": "Distance",
+      "startingDate": "2025-08-01",
+      "duration": "190",
+      "educationCost": "15000",
+      "imageUrl": "distance.png"
+    },
+    {
+      "id": "7fe3",
+      "courseTitle": "Maskininlärning med Python",
+      "courseNumber": "4557",
+      "educationType": "Campus",
+      "startingDate": "2025-05-01",
+      "duration": "90",
+      "educationCost": "7500",
+      "imageUrl": "campus.png"
+    },
+    {
+      "id": "3fa7",
+      "courseTitle": "Molntjänster",
+      "courseNumber": "2496",
+      "educationType": "Distance",
+      "startingDate": "2025-12-01",
+      "duration": "180",
+      "educationCost": "20000",
+      "imageUrl": "distance.png"
+    },
+    {
+      "id": "c3df",
+      "courseTitle": "Webbutveckling",
+      "courseNumber": "8964",
+      "educationType": "Campus",
+      "startingDate": "2025-07-01",
+      "duration": "120",
+      "educationCost": "25000",
+      "imageUrl": "campus.png"
+    },
+    {
+      "id": "09b5",
+      "courseTitle": "Databashantering ",
+      "courseNumber": "4985",
+      "educationType": "Distance and Campus",
+      "startingDate": "2025-07-01",
+      "duration": "190",
+      "educationCost": "20000",
+      "imageUrl": "both.png"
+    }
+  ],
+  "confirmedBookings": [
+    {
+      "id": "9ce1",
+      "fullName": "Erik Wiklund",
+      "billingAdress": "Sandstensvägen 3",
+      "email": "wiklund.karl@gmail.com",
+      "phoneNumber": "0725505553",
+      "course": "8523"
+    },
+    {
+      "id": "d545",
+      "fullName": "Johanna Persson",
+      "billingAdress": "Utmyrsvägen 48",
+      "email": "johanna@hotmail.com",
+      "phoneNumber": "072568942",
+      "course": "8964"
+    },
+    {
+      "id": "bdab",
+      "fullName": "Magnus Håkansson",
+      "billingAdress": "Trädgårdsvägen 24",
+      "email": "magnus@gmail.com",
+      "phoneNumber": "074899612",
+      "course": "8523"
+    },
+    {
+      "id": "48ef",
+      "fullName": "Magdalena Hemsefjord",
+      "billingAdress": "Stågatan 34",
+      "email": "magdalena@hotmail.com",
+      "phoneNumber": "0742987453",
+      "course": "2496"
+    }
+  ],
+  "createdAccounts": [
+    {
+      "id": "f0cf",
+      "email": "wiklund.karl@gmail.com",
+      "psw": "hejsan123"
+    },
+    {
+      "id": "b71b",
+      "email": "magdalena@gmail.com",
+      "psw": "hejsan123"
+    },
+    {
+      "id": "c7df",
+      "email": "ture@lunarstorm.se",
+      "psw": "hejsan123"
+    },
+    {
+      "id": "1887",
+      "email": "sten@hotmail.com",
+      "psw": "hejsan123"
+    },
+    {
+      "id": "50e5",
+      "email": "thomas@gmail.com",
+      "psw": "hejsan123"
+    }
+  ]
+}

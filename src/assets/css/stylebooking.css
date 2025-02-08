@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }  
+
+/** RESET DONE **/
+
+body { 
+    background: radial-gradient(circle, rgb(255, 196, 0) 0%, rgb(32, 30, 30) 100%);
+    background-size: cover;
+    min-height: 100vh;
+    font-family: 'Montserrat', 'Franklin Gothic Medium';
+}
+
+/** FORM STYLING FOR BOOKING PAGE **/
+
+
+/** Styling for the entire form **/
+#book-courses {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    background: linear-gradient(166deg, rgb(68, 68, 68) 0%, rgb(0, 0, 0) 100%);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  }
+  
+  /** Label styling **/
+  #book-courses label {
+    color: white;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1rem;
+  }
+  
+  /** Input and select field styling **/
+  #book-courses input[type="text"],
+  #book-courses input[type="email"],
+  #book-courses input[type="tel"],
+  #book-courses select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  
+  /** Styling for the button **/
+  #confirm-booking {
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #3cb923;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #confirm-booking:hover {
+    background-color: #196f01;
+  }
+  
+  /** Adding some spacing between form fields **/
+  #book-courses input,
+  #book-courses select,
+  #book-courses button {
+    margin-bottom: 20px;
+  }
+
+
+ /** RETURN BUTTON **/
+ .back-btn {
+  text-align: center;
+  color:white;
+  font-size: 1rem;
+  padding:5px;
+  border-bottom-right-radius: 5px;
+  background: rgb(1, 170, 37);
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+}
+
+a.back-btn {
+  text-decoration: none;
+}
+
+a.back-btn:hover {
+  background: rgb(4, 194, 45);
+}

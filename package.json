@@ -1,0 +1,19 @@
+{
+  "name": "proof-of-work",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "server": "npx json-server courses.json",
+    "test": "vitest --globals"
+  },
+  "keywords": [],
+  "author": "Erik Wiklund",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  },
+  "devDependencies": {
+    "vitest": "^3.0.5"
+  }
+}
