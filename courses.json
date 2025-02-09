@@ -49,6 +49,16 @@
       "duration": "190",
       "educationCost": "20000",
       "imageUrl": "both.png"
+    },
+    {
+      "id": "8c82",
+      "courseTitle": "Programmering",
+      "courseNumber": "1436",
+      "educationType": "Campus",
+      "startingDate": "2025-06-01",
+      "duration": "30",
+      "educationCost": "5000",
+      "imageUrl": "campus.png"
     }
   ],
   "confirmedBookings": [
@@ -83,6 +93,14 @@
       "email": "magdalena@hotmail.com",
       "phoneNumber": "0742987453",
       "course": "2496"
+    },
+    {
+      "id": "ea4b",
+      "fullName": "Jonas Wiklund",
+      "billingAdress": "Marsstrand 56",
+      "email": "jonas@telia.com",
+      "phoneNumber": "0725489625",
+      "course": "8964"
     }
   ],
   "createdAccounts": [
